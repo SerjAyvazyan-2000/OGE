@@ -50,10 +50,6 @@
 }
 
 
-
-
-
-
 .hero-media {
     max-width: 691px;
     margin-top: -70px;
@@ -120,6 +116,7 @@
     transform: translateY(50px);
     transition: all 0.8s ease-out;
 }
+
 .possibilities-section.animate {
     opacity: 1;
     transform: translateY(0);
@@ -131,11 +128,13 @@
     transform: translateY(40px);
     transition: all 0.8s ease;
 }
+
 .possibilities-section.animate .section-titles h2 {
     opacity: 1;
     transform: translateY(0);
     transition-delay: 0.2s;
 }
+
 .possibilities-section.animate .section-titles p {
     opacity: 1;
     transform: translateY(0);
@@ -147,19 +146,24 @@
     transform: scale(0.95) translateY(20px);
     transition: all 0.7s ease;
 }
+
 .possibilities-section.animate .possibilities-item {
     opacity: 1;
     transform: scale(1) translateY(0);
 }
+
 .possibilities-section.animate .possibilities-item:nth-child(1) {
     transition-delay: 0.6s;
 }
+
 .possibilities-section.animate .possibilities-item:nth-child(2) {
     transition-delay: 0.8s;
 }
+
 .possibilities-section.animate .possibilities-item:nth-child(3) {
     transition-delay: 1s;
 }
+
 .possibilities-section.animate .possibilities-item:nth-child(4) {
     transition-delay: 1.2s;
 }
@@ -266,6 +270,7 @@
     transform: translateY(50px);
     transition: all 0.8s ease;
 }
+
 .services-section.animate {
     opacity: 1;
     transform: translateY(0);
@@ -276,6 +281,7 @@
     transform: translateY(40px);
     transition: all 0.8s ease;
 }
+
 .services-section.animate .section-titles h2 {
     opacity: 1;
     transform: translateY(0);
@@ -287,16 +293,19 @@
     transform: translateX(-40px);
     transition: all 0.7s ease;
 }
+
 .services-section.animate .services-item:nth-child(1) {
     opacity: 1;
     transform: translateX(0);
     transition-delay: 0.4s;
 }
+
 .services-section.animate .services-item:nth-child(2) {
     opacity: 1;
     transform: translateX(0);
     transition-delay: 0.6s;
 }
+
 .services-section.animate .services-item:nth-child(3) {
     opacity: 1;
     transform: translateX(0);
@@ -308,12 +317,12 @@
     transform: translateY(40px);
     transition: all 0.8s ease;
 }
+
 .services-section.animate .services-media {
     opacity: 1;
     transform: translateY(0);
     transition-delay: 1s;
 }
-
 
 
 .services-body .section-titles h2 {
@@ -400,6 +409,7 @@
     transform: translateY(50px);
     transition: all 0.8s ease-out;
 }
+
 .how-works-section.animate {
     opacity: 1;
     transform: translateY(0);
@@ -411,11 +421,13 @@
     transform: translateY(30px);
     transition: all 0.7s ease;
 }
+
 .how-works-section.animate .section-titles h2 {
     opacity: 1;
     transform: translateY(0);
     transition-delay: 0.2s;
 }
+
 .how-works-section.animate .section-titles p {
     opacity: 1;
     transform: translateY(0);
@@ -431,11 +443,13 @@
 .works-left-item {
     transform: translateX(-40px);
 }
+
 .how-works-section.animate .works-left-item:nth-of-type(1) {
     opacity: 1;
     transform: translateX(0);
     transition-delay: 0.6s;
 }
+
 .how-works-section.animate .works-left-item:nth-of-type(2) {
     opacity: 1;
     transform: translateX(0);
@@ -445,11 +459,13 @@
 .works-right-item {
     transform: translateX(40px);
 }
+
 .how-works-section.animate .works-right-item:nth-of-type(3) {
     opacity: 1;
     transform: translateX(0);
     transition-delay: 1s;
 }
+
 .how-works-section.animate .works-right-item:nth-of-type(4) {
     opacity: 1;
     transform: translateX(0);
@@ -462,6 +478,7 @@
     transform: translateY(30px);
     transition: all 0.8s ease;
 }
+
 .how-works-section.animate .how-works-btn {
     opacity: 1;
     transform: translateY(0);
@@ -546,6 +563,7 @@
     transform: translateY(60px);
     transition: all 0.8s ease-out;
 }
+
 .about-neural-section.animate {
     opacity: 1;
     transform: translateY(0);
@@ -557,11 +575,13 @@
     transform: translateY(30px);
     transition: all 0.7s ease;
 }
+
 .about-neural-section.animate .section-titles h2 {
     opacity: 1;
     transform: translateY(0);
     transition-delay: 0.2s;
 }
+
 .about-neural-section.animate .section-titles p {
     opacity: 1;
     transform: translateY(0);
@@ -573,6 +593,7 @@
     transform: translateY(30px);
     transition: all 0.7s ease;
 }
+
 .about-neural-section.animate .about-neural-img {
     opacity: 1;
     transform: translateY(0);
@@ -590,16 +611,19 @@
     transform: translateX(0);
     transition-delay: 0.8s;
 }
+
 .about-neural-section.animate .about-neural-item:nth-child(2) {
     opacity: 1;
     transform: translateX(0);
     transition-delay: 1s;
 }
+
 .about-neural-section.animate .about-neural-item:nth-child(3) {
     opacity: 1;
     transform: translateX(0);
     transition-delay: 1.2s;
 }
+
 .about-neural-section.animate .about-neural-item:nth-child(4) {
     opacity: 1;
     transform: translateX(0);
@@ -975,6 +999,7 @@
     transform: translateY(30px);
     transition: all 0.8s ease;
 }
+
 .additionally-section.animate .additionally-info {
     opacity: 1;
     transform: translateY(0);
@@ -986,6 +1011,7 @@
     transform: translateX(40px);
     transition: all 0.8s ease;
 }
+
 .additionally-section.animate .additionally-media {
     opacity: 1;
     transform: translateX(0);
@@ -997,16 +1023,19 @@
     transform: scale(0.95);
     transition: all 0.6s ease;
 }
+
 .additionally-section.animate .additionally-item:nth-child(1) {
     opacity: 1;
     transform: scale(1);
     transition-delay: 0.6s;
 }
+
 .additionally-section.animate .additionally-item:nth-child(2) {
     opacity: 1;
     transform: scale(1);
     transition-delay: 0.8s;
 }
+
 .additionally-section.animate .additionally-item:nth-child(3) {
     opacity: 1;
     transform: scale(1);
@@ -1205,43 +1234,52 @@
         flex-direction: column;
         align-items: center;
     }
-    .additionally-info .section-titles h2{
+
+    .additionally-info .section-titles h2 {
         text-align: center;
     }
-    .additionally-info .section-titles p{
+
+    .additionally-info .section-titles p {
         text-align: center;
         max-width: 284px;
 
     }
+
     .additionally-media {
         max-width: 283px;
         margin: 0 auto;
     }
-    .additionally-item{
+
+    .additionally-item {
         flex: 1 1 auto;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .additionally-items{
+
+    .additionally-items {
         margin-top: -85px;
         gap: 4px;
     }
-    .additionally-item h3{
+
+    .additionally-item h3 {
         font-size: 34px;
         line-height: 90%;
 
     }
-    .additionally-item p{
+
+    .additionally-item p {
         font-size: 14px;
         line-height: 120%;
 
     }
-    .additionally-info .section-titles{
+
+    .additionally-info .section-titles {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .services-media {
         max-width: 100%;
     }
@@ -1309,9 +1347,11 @@
         min-height: 209px;
 
     }
-    .additionally-section{
+
+    .additionally-section {
         margin-top: 90px;
     }
+
     .faq-titles .section-titles {
         justify-content: center;
     }
@@ -1458,7 +1498,6 @@
         top: -40px;
         transform: translateX(-50%);
     }
-
 
 
     .services-picture img {
@@ -1611,7 +1650,16 @@
         line-height: 120%;
 
     }
-    .services-tag h4{
+
+    .services-picture {
+        height: 247px;
+    }
+
+    .services-picture img {
+        width: 100%;
+    }
+
+    .services-tag h4 {
         margin-top: 0;
     }
 }
