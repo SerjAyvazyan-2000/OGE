@@ -1,0 +1,177 @@
+:root {
+    --white: #FFFFFF;
+    --white2: #F8F8F8;
+
+    --black: #0E0E0E;
+
+    --gray: #646464;
+
+    --blueviolet: #7E62F3;
+    --blueviolet2: #AA99F3;
+
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 100%;
+
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+.container {
+    max-width: 1232px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.text-wrap {
+    display: block;
+}
+
+.desktop-text-wrap {
+    display: block;
+}
+
+
+.img-mobile {
+    display: none;
+}
+
+
+.btn-black {
+    background: var(--black);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--white);
+    padding: 12px 48px;
+    border-radius: 46px;
+    z-index: 1;
+    transition: .3s;
+}
+
+.btn-black:hover {
+    background: var(--blueviolet);
+}
+
+.text-blueviolet {
+    color: var(--blueviolet);
+}
+
+.section-titles h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 105%;
+    text-align: center;
+    color: var(--black);
+
+}
+
+.section-titles p {
+    margin-top: 12px;
+    color: var(--gray);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+
+}
+
+.block-title {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 111%;
+    color: var(--black);
+
+}
+.block-text {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--gray);
+
+}
+.block-cnt{
+    margin-top: 60px;
+}
+
+.section{
+    margin-top: 120px;
+}
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+
+
+}
+
+@media (max-width: 992px) {
+
+
+}
+
+@media (max-width: 768px) {
+
+    .desktop-text-wrap {
+        display: inline;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .img-desktop {
+        display: none;
+    }
+
+
+    .img-mobile {
+        display: block;
+
+    }
+
+
+    .mobile-text-wrap {
+        display: block;
+    }
+
+    .block-title {
+        font-size: 20px;
+        line-height: 100%;
+    }
+    .block-text {
+        font-size: 14px;
+        line-height: 120%;
+    }
+    .section-titles h2{
+        font-size: 27px;
+        line-height: 100%;
+
+    }
+    .section-titles p {
+        margin-top: 8px;
+        font-size: 14px;
+        line-height: 120%;
+
+    }
+    .block-cnt{
+        margin-top: 34px;
+    }
+    .section{
+        margin-top: 90px;
+    }
+}
+
+@media (max-width: 400px) {
+
+}
