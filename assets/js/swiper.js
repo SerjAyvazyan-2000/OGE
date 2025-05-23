@@ -9,6 +9,7 @@ let reviewsSwiper = new Swiper(".reviews-swiper", {
     autoplay: {
         delay: 1200,
         disableOnInteraction: false,
+        reverseDirection: true ,
     },
     speed: 2000,
 
