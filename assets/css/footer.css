@@ -31,16 +31,6 @@ footer.footer.animate .footer-menu {
     transition-delay: 0.4s;
 }
 
-.footer-btn {
-    opacity: 0;
-    transform: scale(0.95);
-    transition: all 0.6s ease;
-}
-footer.footer.animate .footer-btn {
-    opacity: 1;
-    transform: scale(1);
-    transition-delay: 0.6s;
-}
 
 .footer-decor {
     opacity: 0;
